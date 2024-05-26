@@ -1,4 +1,4 @@
-
+/* Basic Reset */
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -9,6 +9,7 @@ body {
   font-family: 'Figtree', sans-serif;
   font-weight: 500;
   background: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
   min-height: 100vh;
 
   display: flex;
@@ -16,6 +17,22 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+a {
+  color: hsl(0, 0%, 7%);
+  text-decoration: none;
+}
+
+a:hover {
+  color:hsl(47, 88%, 63%);
+}
+
+
 
 .card {
   background: hsl(0, 0%, 100%);
@@ -37,11 +54,6 @@ body {
   margin-bottom: 0;
 }
 
-img {
-  width: 100%;
-  border-radius: 10px;
-}
-
 .container {
   width: 90%;
   margin: 0 auto;
@@ -50,10 +62,6 @@ img {
 .card__main--title {
   font-size: 1.2rem;
   font-weight: 1000;
-}
-
-.card__main--title:hover  {
-  color:hsl(47, 88%, 63%);
 }
 
 .card__main--text {
