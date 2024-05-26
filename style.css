@@ -7,6 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Figtree', sans-serif;
+  font-weight: 500;
   background: hsl(47, 88%, 63%);
   min-height: 100vh;
 
@@ -21,6 +22,7 @@ body {
 .card {
   background: hsl(0, 0%, 100%);
   width: 90%;
+  max-width: 375px;
   margin: 0 auto;
   padding: 1rem 0;
   border: 2px solid black;
@@ -41,4 +43,16 @@ img {
 .card__main--title {
   font-size: 1.2rem;
   font-weight: 1000;
+}
+
+.card__main--title:hover  {
+  color:hsl(47, 88%, 63%);
+}
+
+.card__main--text {
+  color: hsl(0, 0%, 50%);
+}
+
+.card__footer--text {
+  font-weight: 800;
 }
