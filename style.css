@@ -31,11 +31,29 @@ body {
   min-height: 100vh;
 
   border: 2px solid blue;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
   background: hsl(0, 0%, 100%);
   width: 90%;
   margin: 0 auto;
+  padding: 1rem 0;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container {
+  width: 90%;
   border: 2px solid red;
+  margin: 0 auto;
 }
