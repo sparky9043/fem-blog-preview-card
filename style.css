@@ -45,7 +45,6 @@ img {
 
 .container {
   width: 90%;
-  border: 2px solid red;
   margin: 0 auto;
 }
 
@@ -63,5 +62,13 @@ img {
 }
 
 .card__footer--text {
+  display: flex;
+  align-items: center;
   font-weight: 800;
+}
+
+.card__footer--img {
+  display: inline-block;
+  max-width: 40px;
+  margin-right: 1rem;
 }
