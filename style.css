@@ -11,8 +11,6 @@ body {
   background: hsl(47, 88%, 63%);
   min-height: 100vh;
 
-  border: 2px solid blue;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,6 +25,7 @@ body {
   padding: 1rem 0;
   border: 2px solid black;
   border-radius: 20px;
+  box-shadow: 5px 5px 0 black;
 }
 
 .card__header--category {
@@ -71,4 +70,10 @@ img {
   display: inline-block;
   max-width: 40px;
   margin-right: 1rem;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.8rem;
 }
